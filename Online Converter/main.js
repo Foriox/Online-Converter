@@ -64,7 +64,7 @@ function convertunits (){
         result.value = amount.value / 100
     }
     if(convertFrom.value=="meter" && convertTo.value=="millimeter"){
-        result.value = amount.value / 1000
+        result.value = amount.value * 1000
     }
     
     if(convertFrom.value=="meter" && convertTo.value=="meter"){
